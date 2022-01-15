@@ -12,7 +12,7 @@ function Login({ authService }) {
   return (
     <section>
       <Header onLogout={true} />
-      <section>
+      <section className={styles.login}>
         <h1 className={styles.title}>Login</h1>
         <ul className={styles.list}>
           <li>
