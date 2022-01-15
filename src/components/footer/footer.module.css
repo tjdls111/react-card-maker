@@ -1,0 +1,10 @@
+.footer {
+  width: 100%;
+  padding: 1em;
+  background-color: pink;
+}
+
+.title {
+  text-align: center;
+  color: white;
+}
