@@ -1,11 +1,11 @@
 import React from "react";
-import style from './card_maker.module.css'
+import styles from "./cardmaker.module.css";
 
 function CardMaker() {
   return (
-    <div>
+    <section className={styles.editor}>
       <h1>Card Maker</h1>
-    </div>
+    </section>
   );
 }
 

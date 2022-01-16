@@ -1,10 +1,10 @@
 import React from "react";
-import style from "./card_preview.module.css";
+import styles from "./cardpreview.module.css";
 function CardPreview() {
   return (
-    <div>
+    <section className={styles.preview}>
       <h1>Card Preview</h1>
-    </div>
+    </section>
   );
 }
 
