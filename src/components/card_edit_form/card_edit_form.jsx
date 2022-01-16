@@ -33,8 +33,8 @@ function CardEditForm({ card }) {
         <option value="pink">pink</option>
       </select>
       <div className={styles.fileInput}>
-        <Button className={styles.button} name="delete" onClick={onSubmit} />
         <ImgInput className={styles.inputBtn} />
+        <Button className={styles.button} name="delete" onClick={onSubmit} />
       </div>
     </form>
   );

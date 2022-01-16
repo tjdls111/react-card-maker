@@ -48,6 +48,10 @@ function Maker({ authService }) {
   };
   const navigate = useNavigate();
 
+  const addCard = (card) => {
+    const updated = [...data, card];
+    setData(updated);
+  };
   useEffect(() => {
     authService.onAuthChange((user) => {
       if (!user) {
@@ -59,7 +63,7 @@ function Maker({ authService }) {
     <section className={styles.maker}>
       <Header onLogout={onLogout} />
       <div className={styles.container}>
-        <CardMaker data={data} />
+        <CardMaker data={data} addCard={addCard} />
         <CardPreview data={data} />
       </div>
 

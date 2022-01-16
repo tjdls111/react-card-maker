@@ -8,7 +8,6 @@ const firebaseConfig = {
   storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
 };
 
-console.log(process.env.REACT_APP_FIREBASE_API_KEY);
 // Initialize Firebase
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 export default firebaseApp;
