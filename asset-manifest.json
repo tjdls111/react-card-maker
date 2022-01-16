@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-card-maker/static/css/main.94c9a3c3.css",
-    "main.js": "/react-card-maker/static/js/main.32fee45b.js",
+    "main.css": "/react-card-maker/static/css/main.0fd749ce.css",
+    "main.js": "/react-card-maker/static/js/main.514803c4.js",
     "index.html": "/react-card-maker/index.html",
-    "main.94c9a3c3.css.map": "/react-card-maker/static/css/main.94c9a3c3.css.map",
-    "main.32fee45b.js.map": "/react-card-maker/static/js/main.32fee45b.js.map"
+    "main.0fd749ce.css.map": "/react-card-maker/static/css/main.0fd749ce.css.map",
+    "main.514803c4.js.map": "/react-card-maker/static/js/main.514803c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.94c9a3c3.css",
-    "static/js/main.32fee45b.js"
+    "static/css/main.0fd749ce.css",
+    "static/js/main.514803c4.js"
   ]
 }
